@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body {
+	margin : 0;
+	padding : 0;
+	background : url (img.jpg) center center fixed no-repeat;
+}
+video {
+	position : fixed;
+	top : 0; 
+	left : 0;
+	min-width : 100 %;
+	min-height : 100 %;
+	width : auto;
+	height : auto;
+	z-index : -1;
+}
